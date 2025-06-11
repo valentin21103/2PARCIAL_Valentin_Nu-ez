@@ -1,22 +1,16 @@
-# 2PARCIAL_Valentin_Nuñez
+# Tienda Online
 
-Este es el repositorio para el segundo parcial de la materia.
+Proyecto para el 2do Parcial: Desarrollo full‑stack con C# — Blazor WASM + Minimal API + EF Core/SQLite
 
-## Descripción
-Proyecto desarrollado para el segundo parcial.
+## Estructura del proyecto
+- **Cliente/**: Proyecto Blazor WebAssembly (frontend)
+- **Servidor/**: Proyecto Minimal API (backend)
+- **Docs/**: Documentación y diagramas
 
-## Instalación
-1. Clonar el repositorio
-```bash
-git clone https://github.com/valentin21103/2PARCIAL_Valentin_Nu-ez.git
-```
+## Instrucciones
+1. Iniciar el servidor: `cd Servidor && dotnet run`
+2. Iniciar el cliente: `cd Cliente && dotnet run`
 
-2. Instalar dependencias
-```bash
-npm install
-```
+---
 
-3. Iniciar el proyecto
-```bash
-npm start
-``` 
+> Segundo Parcial - Valentin Nuñez - Comisión 5 - Legajo 218 
