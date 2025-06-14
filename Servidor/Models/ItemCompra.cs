@@ -1,6 +1,6 @@
 namespace Servidor.Models;
 
-public class ItemCompra {
+public class ItemsCompra {
     public int id { get; set; }
 
     public int idCompra { get; set; }
@@ -10,4 +10,4 @@ public class ItemCompra {
     public int cantidad { get; set; }
 
     public decimal PrecioUnitario { get; set; }
-} 
+}

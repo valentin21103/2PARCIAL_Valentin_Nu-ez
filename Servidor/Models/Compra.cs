@@ -1,6 +1,6 @@
 namespace Servidor.Models;
 
-public class Compras 
+public class Compra 
 {
     public int id { get; set; }
   
