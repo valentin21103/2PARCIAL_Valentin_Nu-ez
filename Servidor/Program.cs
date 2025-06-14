@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using Servidor.Models; // Asegúrate de tener esto arriba
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Agregar servicios CORS para permitir solicitudes desde el cliente
@@ -11,6 +14,9 @@ builder.Services.AddCors(options => {
 
 // Agregar controladores si es necesario
 builder.Services.AddControllers();
+
+builder.Services.AddDbContext<TiendaContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
